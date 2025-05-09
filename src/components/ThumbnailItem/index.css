@@ -1,12 +1,14 @@
 .thumbnailItem {
   padding-right: 20px;
   margin-bottom: 10px;
+  cursor: pointer;
   opacity: 0.5;
 }
 .button {
   padding: 0px;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 .is-active-image {
   opacity: 1;

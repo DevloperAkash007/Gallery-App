@@ -108,7 +108,7 @@ class Gallery extends Component {
           <img className="selected-image" src={imageUrl} alt={imageAltText} />
         </div>
         <h1 className="heading">Nature Photography</h1>
-        <p className="creator">Nature Photography by Rahul</p>
+        <p className="creator">Nature Photography by Akash</p>
         <ul className="thumbnailItem-container">{thumbnailItemList}</ul>
       </div>
     )

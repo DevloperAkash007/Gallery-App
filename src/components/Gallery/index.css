@@ -1,14 +1,14 @@
 .app-container {
   height: 100vh;
-  padding: 20px;
+  padding: 10px;
   background-color: #ffffff;
 }
 @media (min-width: 768px) {
   .app-container {
-    padding-top: 40px;
+    padding-top: 20px;
     padding-right: 80px;
     padding-left: 80px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 }
 .image-container {
@@ -16,32 +16,33 @@
 }
 .selected-image {
   width: 100%;
+  height: 60vh;
 }
-.heading{
+.heading {
   font-weight: bold;
   color: #1e293b;
   font-size: 30px;
 }
-@media(min-width: 768px){
-  .heading{
-    font-size: 40px;
+@media (min-width: 768px) {
+  .heading {
+    font-size: 30px;
   }
 }
-.creator{
+.creator {
   color: #64748b;
   font-size: 20px;
   font-weight: 500;
 }
-@media(min-width: 768px){
-  .creator{
+@media (min-width: 768px) {
+  .creator {
     font-size: 25px;
   }
 }
-.thumbnailItem-container{
+.thumbnailItem-container {
   list-style: none;
   padding-left: 0px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  flex-wrap:  wrap;
+  flex-wrap: wrap;
 }
