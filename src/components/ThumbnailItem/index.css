@@ -1,0 +1,13 @@
+.thumbnailItem {
+  padding-right: 20px;
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
+.button {
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+}
+.is-active-image {
+  opacity: 1;
+}
